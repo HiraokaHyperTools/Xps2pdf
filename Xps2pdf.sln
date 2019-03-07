@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xps2pdf", "Xps2pdf.csproj", "{19C9E11D-96AA-48DA-81FB-CD64699F27AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C9E11D-96AA-48DA-81FB-CD64699F27AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C9E11D-96AA-48DA-81FB-CD64699F27AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C9E11D-96AA-48DA-81FB-CD64699F27AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C9E11D-96AA-48DA-81FB-CD64699F27AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {808D3730-AFA2-4EE3-A6FD-8FB602446A3B}
+	EndGlobalSection
+EndGlobal
