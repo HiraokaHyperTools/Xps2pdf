@@ -33,12 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PdfSharp-WPF, Version=1.31.1789.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
-      <HintPath>packages\kenjiuno.PdfSharp-WPF.1.31.1789\lib\net40\PdfSharp-WPF.dll</HintPath>
+    <Reference Include="HiraokaHyperTools.PdfSharp-WPF, Version=1.31.7247.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>packages\kenjiuno.PdfSharp-WPF.1.31.7247\lib\net40\HiraokaHyperTools.PdfSharp-WPF.dll</HintPath>
     </Reference>
-    <Reference Include="PdfSharp.Xps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
-      <HintPath>packages\kenjiuno.PdfSharp.Xps.1.0.0\lib\net40\PdfSharp.Xps.dll</HintPath>
+    <Reference Include="HiraokaHyperTools.PdfSharp.Xps, Version=1.1.14.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>packages\kenjiuno.PdfSharp.Xps.1.1.14\lib\net40\HiraokaHyperTools.PdfSharp.Xps.dll</HintPath>
     </Reference>
+    <Reference Include="ReachFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,15 +59,13 @@
     <None Include="Usage.md" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PdfSharp.SharpZipLib\ReadMe.txt" />
-    <Content Include="Resources\Messages.de.txt" />
-    <Content Include="Resources\Messages.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PdfSharp.SharpZipLib\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
